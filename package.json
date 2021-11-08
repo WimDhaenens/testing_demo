@@ -1,5 +1,13 @@
 {
   "name": "testing-demo",
   "version": "1.0.0",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "yarn test --coverage"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "jest-each": "^27.3.1"
+  }
 }

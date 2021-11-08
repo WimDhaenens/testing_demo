@@ -7,3 +7,17 @@ De uiteindelijke oplossing van het deel unit testen, is te vinden op de
 ## Oefening
 
 Als oefening kan je zelf testen schrijven voor het bestand `exercise.js`.
+
+## Testen uitvoeren
+
+Zonder coverage:
+
+```
+yarn test
+```
+
+Met coverage:
+
+```
+yarn test:coverage
+```
