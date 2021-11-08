@@ -3,14 +3,14 @@ const db = require('../db');
 const mail = require('../mail');
 const each = require("jest-each").default;
 
-describe('our first test', () => {
-  it('should succeed', () => {
-    expect(1).toBe(1)
-  });;
-  it('should fail', () => {
-    throw new Error('failing test')
-  });;
-});
+// describe('our first test', () => {
+//   it('should succeed', () => {
+//     expect(1).toBe(1)
+//   });
+//   it('should fail', () => {
+//     throw new Error('failing test')
+//   });
+// });
 
 describe('absolute', () => {
   it('should return positive number if input is positive', () => {
