@@ -6,5 +6,5 @@ module.exports.divisibleBy = function(divisor, dividend) {
     throw new Error('dividend should be a number.');
   if (dividend === 0)
     throw new Error('division by zero is not allowed');
-  return input % dividend===0;
+  return input % dividend === 0;
 }
